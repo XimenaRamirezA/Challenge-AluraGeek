@@ -1,0 +1,32 @@
+section.footer{
+    background-color: #03318C;
+    width: Fill (1,440px)px;
+    height: Hug (232px)px;
+    padding: 64px 0px 64px 0px;
+    display: flex;
+    flex-direction: column;
+    
+    .footer_logo{
+        width: 374px;
+        height: 56px;
+        align-self: center;
+        display: block; 
+        
+
+    }
+
+    .derechos-de-autor{
+        color: aliceblue;
+        font-family: IBM Plex Mono;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+    }
+
+}
+

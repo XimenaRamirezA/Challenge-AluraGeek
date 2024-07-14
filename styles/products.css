@@ -1,0 +1,99 @@
+section.productos{
+    padding: 60px;
+    
+    .products-container{  
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 20px;
+        padding: 15px 0px 0px 0px;
+        overflow-y: auto;
+        
+    }
+    
+    
+
+    .card-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    .card {
+        background-color: #ffffff;
+        color: #1700af;
+        width: 200px;
+        border-radius: 10px;
+        border: 1px solid #1700af;
+        width: 100%;
+     
+    }
+  
+
+    .press-start-2p-regular {
+        font-family: "Press Start 2P", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        h1{
+        font-size: 24px;
+        line-height: 24px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+  }
+   
+    
+        .img-size{
+            max-height: 140px;
+            margin: auto;
+            display: block;
+        
+            
+        }
+    
+
+    .card-container--info{
+        margin-top: 5px;
+        margin-bottom: 5px;
+       
+        font-family: IBM Plex Mono;
+        font-size: 15px;
+        font-weight: 700;
+        
+    }
+
+    .card-container--value{
+        
+        display: flex;
+        flex-direction: row;
+        font-family: IBM Plex Mono;
+        font-size: 15px;
+        font-weight: 400;
+
+        .delete-button{
+            margin-left: 115px;
+            margin-bottom: 13px;
+            border: none;
+            color: #ba0101;
+            background-color: #ffffff;
+            width: auto;
+        
+         }
+
+    } 
+
+}
+
+/* For smaller screens */
+@media (max-width: 768px) {
+    section.productos {
+        align-items: center;
+        .products-container{  
+         grid-template-columns: 1fr; /* Single column */
+
+    }
+  }
+  }
+
+
+

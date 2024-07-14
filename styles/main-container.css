@@ -1,0 +1,15 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+/* For smaller screens */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+        align-items: center;
+        flex-direction: column-reverse;
+  }
+}

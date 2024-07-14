@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "name": "Darth Vader",
+      "price": "50",
+      "image": "https://resources.sears.com.mx/medios-plazavip/s2/10790/1296999/5e18ee9439d2d-da36f1b4-e4c1-468d-8d83-255d76f95ce3-1600x1600.jpg",
+      "id": "1"
+    },
+    {
+      "name": "Flash",
+      "price": "25",
+      "image": "https://media.gamestop.com/i/gamestop/11203670",
+      "id": "2"
+    },
+    {
+      "name": "Batman",
+      "price": "20",
+      "image": "https://www.kingdom-figurine.fr/wp-content/uploads/2018/12/BATMAN-CLASSIC-FIGURINE-DC-SUPER-HEROES-POP-01-FUNKO-2-849803074982-kingdom-figurine.fr_.jpg",
+      "id": "3"
+    },
+    {
+      "name": "Joker",
+      "price": "60",
+      "image": "https://lafrikileria.com/81657-thickbox_default/funko-pop-joker-dark-knight.jpg",
+      "id": "4"
+    },
+    {
+      "name": "Harry",
+      "price": "100",
+      "image": "https://th.bing.com/th/id/OIP.n3imps7jmCFyEl_527CezgHaHa?rs=1&pid=ImgDetMain",
+      "id": "5"
+    },
+    {
+      "id": "2ce6",
+      "name": "Superman",
+      "price": "50",
+      "image": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/20380dd0-ff61-49bf-9d6e-9fffbcce1e12.77a3f2d764a924694bbd52e96fc5328f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    },
+    {
+      "id": "5888",
+      "name": "Stitch",
+      "price": "150",
+      "image": "https://th.bing.com/th/id/OIP.CRZMcBY4J0edElI4c_F9AgHaIX?rs=1&pid=ImgDetMain"
+    }
+  ]
+}

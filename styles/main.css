@@ -1,0 +1,153 @@
+/* Estilos generales */
+
+.body {
+    
+    margin: 0;
+    padding: 0;
+  }
+
+  
+  
+  
+  section.productos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /* Cambiar a column para scroll vertical */
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    .products-container::-webkit-crollbar-track {
+      background-color: #f1f1f1;
+  }
+    
+    .card {
+      background-color: #0056b3;
+      color: #FFFF;
+  
+      width: calc(100%/4);
+      padding: 10px;
+  
+      border-radius: 2px;
+      border: 3px solid #1700af;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+  .card-container--info{
+    display: flex;
+    flex-direction: column;
+}
+
+    .productos-caja {
+        display: flex;
+        flex-wrap: wrap; /* Permite que los productos se acomoden en filas */
+        justify-content: space-between; /* Distribuye los productos con espacio entre sí */
+        width: zzzz; /* Ancho del contenedor */
+    }
+   
+    .producto {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin-bottom: 15px;
+        width: 250px;
+        
+          
+      }
+      
+      .producto img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+      
+      .producto h3 {
+        margin: 0;
+      }
+      
+      .producto p {
+        margin-bottom: 0;
+      }
+    
+      
+      .btn-agregar {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      
+      .btn-agregar:hover {
+        background-color: #0056b3;
+      }
+      
+     
+    
+     
+    
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Estilos para el formulario */
+  
+  .agregar-producto form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .agregar-producto label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .agregar-producto input[type="text"],
+  .agregar-producto input[type="number"],
+  .agregar-producto input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .agregar-producto button[type="submit"],
+  .agregar-producto button[type="reset"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .agregar-producto button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .agregar-producto button[type="reset"] {
+    background-color: #dc3545;
+  }
+  
+  .agregar-producto button[type="reset"]:hover {
+    background-color: #c82333;
+  }
+  

@@ -1,0 +1,16 @@
+.header{
+    background-color: #03318C;
+    width: Fill (1,440px)px;
+    height: Hug (96px)px;
+    padding: 20px 0px 20px 0px;
+    
+    .header_logo{
+        width: 374px;
+        height: 56px;
+        align-self: center;
+        display: block; 
+        margin: 0 auto;
+
+    }
+
+}
